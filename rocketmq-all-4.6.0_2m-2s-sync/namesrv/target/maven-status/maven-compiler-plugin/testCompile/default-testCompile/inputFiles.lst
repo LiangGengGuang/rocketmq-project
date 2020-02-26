@@ -1,7 +1,0 @@
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/ClusterTestRequestProcessorTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/routeinfo/RouteInfoManagerTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigManagerTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/NameServerInstanceTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/routeinfo/BrokerHousekeepingServiceTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessorTest.java
-/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/test/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigSerializeWrapperTest.java
