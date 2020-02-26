@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/srvutil/src/main/java/org/apache/rocketmq/srvutil/FileWatchService.java">
+</file>
+<file name="/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/srvutil/src/main/java/org/apache/rocketmq/srvutil/ShutdownHookThread.java">
+</file>
+<file name="/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/srvutil/src/main/java/org/apache/rocketmq/srvutil/ServerUtil.java">
+</file>
+</checkstyle>

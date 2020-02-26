@@ -1,0 +1,8 @@
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RemotingSerializableTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RemotingCommandTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/NettyRemotingAbstractTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/RemotingServerTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/protocol/RocketMQSerializableTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/NettyRemotingClientTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/netty/FileRegionEncoderTest.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/remoting/src/test/java/org/apache/rocketmq/remoting/TlsTest.java

@@ -1,0 +1,8 @@
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/routeinfo/BrokerHousekeepingService.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigSerializeWrapper.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/kvconfig/KVConfigManager.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/routeinfo/RouteInfoManager.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvStartup.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/NamesrvController.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/ClusterTestRequestProcessor.java
+/Users/lianggengguang/Documents/files/rocketmq-all-4.6.0/namesrv/src/main/java/org/apache/rocketmq/namesrv/processor/DefaultRequestProcessor.java

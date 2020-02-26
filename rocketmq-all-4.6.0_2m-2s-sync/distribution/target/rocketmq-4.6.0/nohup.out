@@ -1,0 +1,168 @@
+ERROR: Please set the JAVA_HOME variable in your environment, We need java(x64)! !!
+ERROR: Please set the JAVA_HOME variable in your environment, We need java(x64)! !!
+ERROR: Please set the JAVA_HOME variable in your environment, We need java(x64)! !!
+ERROR: Please set the JAVA_HOME variable in your environment, We need java(x64)! !!
+Create RAMDisk /Volumes/RAMDisk for gc logging on Darwin OS.
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:127)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:127)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:501)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1218)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:965)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:210)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:408)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:455)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+The mqnamesrv(34836) is running...
+Send shutdown request to mqnamesrv(34836) OK
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+The broker[lggMBP.local, 192.168.1.169:10911] boot success. serializeType=JSON and name server is localhost:9876
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+The broker[lggMBP.local, 192.168.1.169:10911] boot success. serializeType=JSON and name server is localhost:9876
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+The broker[lggMBP.local, 192.168.1.169:10911] boot success. serializeType=JSON and name server is localhost:9876
+sh: mqbroker: No such file or directory
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+The broker[lggMBP.local, 192.168.1.169:10911] boot success. serializeType=JSON and name server is localhost:9876
+Java HotSpot(TM) 64-Bit Server VM warning: Using the DefNew young collector with the CMS collector is deprecated and will likely be removed in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+The Name Server boot success. serializeType=JSON
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:20111] boot success. serializeType=JSON and name server is 192.168.1.18:19876;192.168.1.18:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:20111] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10911] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+java.lang.RuntimeException: Lock failed,MQ already started
+	at org.apache.rocketmq.store.DefaultMessageStore.start(DefaultMessageStore.java:222)
+	at org.apache.rocketmq.broker.BrokerController.start(BrokerController.java:853)
+	at org.apache.rocketmq.broker.BrokerStartup.start(BrokerStartup.java:64)
+	at org.apache.rocketmq.broker.BrokerStartup.main(BrokerStartup.java:58)
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+sh: mqbroker: No such file or directory
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10111] boot success. serializeType=JSON and name server is 192.168.1.169:19876;192.168.1.169:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is localhost:19876;localhost:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is localhost:19876;localhost:29876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10111] boot success. serializeType=JSON and name server is localhost:19876;localhost:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is localhost:19876;localhost:29876
+The broker[broker-b_2m-2s-sync, 192.168.1.169:10311] boot success. serializeType=JSON and name server is localhost:9876;localhost:19876The broker[broker-b_2m-2s-sync, 192.168.1.169:10411] boot success. serializeType=JSON and name server is localhost:9876;localhost:19876
+
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10211] boot success. serializeType=JSON and name server is localhost:9876;localhost:19876
+The broker[broker-a_2m-2s-sync, 192.168.1.169:10111] boot success. serializeType=JSON and name server is localhost:9876;localhost:19876
