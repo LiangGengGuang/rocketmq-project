@@ -1,2 +1,2 @@
-sh rocketmq-all-4.6.0_namesrv/distribution/target/rocketmq-4.6.0/bin/mqshutdown namesrv
+sh rocketmq-all-4.6.1_namesrv/bin/mqshutdown namesrv
 echo "shutdown nameserver"
