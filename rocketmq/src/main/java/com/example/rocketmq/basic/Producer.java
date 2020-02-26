@@ -31,7 +31,7 @@ public class Producer {
         DefaultMQProducer producer = new DefaultMQProducer("synchronous"); //不能有空格
 //        配置namesrv的地址
 //        producer.setNamesrvAddr("localhost:9876");
-        producer.setNamesrvAddr("192.168.1.169:19876;192.168.1.169:29876");
+        producer.setNamesrvAddr("localhost:19876;localhost:29876");
         producer.start();
 
         for (int i = 0; i < 10; i++) {
