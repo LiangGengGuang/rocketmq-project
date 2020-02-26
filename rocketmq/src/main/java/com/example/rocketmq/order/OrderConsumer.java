@@ -20,9 +20,8 @@ public class OrderConsumer {
     public static void main(String[] args) throws MQClientException {
 
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("consumer");
-        consumer.setNamesrvAddr("localhost:9876");
+        consumer.setNamesrvAddr("localhost:19876;localhost:29876");
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
-        consumer.subscribe("TopicTest", "TagA || TagC || TagD");
 
         consumer.registerMessageListener(new MessageListenerOrderly() {
             AtomicLong consumeTimes = new AtomicLong(0);

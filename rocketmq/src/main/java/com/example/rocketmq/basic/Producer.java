@@ -36,7 +36,7 @@ public class Producer {
 
         for (int i = 0; i < 10; i++) {
 //            创建一个消息实例，指定topic，tags和message body。
-            Message msg = new Message("TopicTest", "TagA", ("Hello reliable synchronous " + i).getBytes());
+            Message msg = new Message("TopicTest", "TagA", "synchronousID233", 0, ("Hello reliable synchronous " + i).getBytes(), true);
 //            呼叫发送消息以将消息传递给其中一个代理。
             SendResult sendResult = producer.send(msg);
             System.out.printf("%s%n", sendResult);
