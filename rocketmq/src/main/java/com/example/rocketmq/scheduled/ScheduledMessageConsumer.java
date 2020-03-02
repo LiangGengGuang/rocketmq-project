@@ -18,9 +18,7 @@ public class ScheduledMessageConsumer {
     public static void main(String[] args) throws MQClientException {
 
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("ScheduledMessage_consumer");
-
         consumer.setNamesrvAddr("localhost:19876;localhost:29876");
-
         consumer.subscribe("TopicTest", "*");
 
         consumer.registerMessageListener(new MessageListenerConcurrently() {

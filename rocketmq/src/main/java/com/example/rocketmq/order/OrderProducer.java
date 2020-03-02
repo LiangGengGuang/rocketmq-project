@@ -20,24 +20,32 @@ public class OrderProducer {
         producer.setNamesrvAddr("localhost:19876;localhost:29876");
         producer.start();
 
-        String[] tags = new String[]{"TagA", "TagB", "TagC", "TagD", "TagE"};
 
-        for (int i = 0; i < 10; i++) {
+        List<OrderList> orderList = OrderList.buildOrderList();
 
-            int orderId = i % 10;
-            Message msg = new Message("TopicTest", tags[i % tags.length], "KEY" + i, ("Hello order_message " + i).getBytes());
+        for (int i = 0; i < orderList.size(); i++) {
+
+            String body = orderList.get(i) + "";
+
+            Message msg = new Message("TopicTest", "order", "KEY" + i, body.getBytes());
 
             SendResult sendResult = producer.send(msg, new MessageQueueSelector() {
-
+                /**
+                 *
+                 * @param msglist   队列集合
+                 * @param msg       消息对象
+                 * @param o         业务标识的参数
+                 * @return
+                 */
                 @Override
                 public MessageQueue select(List<MessageQueue> msglist, Message msg, Object o) {
-                    Integer id = (Integer) o;
-                    int index = id % msglist.size();
+                    Integer orderId = (Integer) o;
+                    int index = orderId % msglist.size();
                     return msglist.get(index);
                 }
-            }, orderId);
+            }, orderList.get(i).getOrderId());
 
-            System.out.printf("%s%n", sendResult);
+            System.out.println("发送结果：" + sendResult);
         }
         producer.shutdown();
     }

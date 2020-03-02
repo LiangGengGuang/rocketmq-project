@@ -19,8 +19,7 @@ public class ScheduledMessageProducer {
         producer.setNamesrvAddr("localhost:19876;localhost:29876");
         producer.start();
 
-        int totalMessagesToSend = 10;
-        for (int i = 0; i < totalMessagesToSend; i++) {
+        for (int i = 0; i < 10; i++) {
             Message msg = new Message("TopicTest", ("Hello ScheduledMessage" + i).getBytes());
             /*
              * 设置message延迟发送
