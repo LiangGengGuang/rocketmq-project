@@ -1,6 +1,7 @@
-package com.example.rocketmq.scheduled;
+package com.example.rocketmq.Filter;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
+import org.apache.rocketmq.client.consumer.MessageSelector;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
@@ -11,28 +12,36 @@ import java.util.List;
 
 /**
  * @author LiangGengguang
- * @create 2020-02-26 16:13
+ * @create 2020-03-02 23:51
  */
-public class ScheduledMessageConsumer {
+public class FilterConsumer {
 
     public static void main(String[] args) throws MQClientException {
 
-        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("ScheduledMessage_consumer");
+        DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("filter_consumer");
+
         consumer.setNamesrvAddr("localhost:19876;localhost:29876");
-        consumer.subscribe("TopicTest", "*");
+
+        //指定所有Message中要获取tags
+//        consumer.subscribe("TopicTest", "TagA || TagC || TagD");
+
+        //sql语法过滤
+        consumer.subscribe("TopicTest", MessageSelector.bySql("a between 0 and 3"));
 
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
 
-                for (MessageExt message : list) {
-                    // Print approximate delay time period
-                    System.out.println("消息接收：msgId=" + message.getMsgId() + "] 延迟时间：" + (System.currentTimeMillis() - message.getStoreTimestamp()) + "ms later");
+                for (MessageExt me : list) {
+
+                    System.out.println("消息接收:" + new String(me.getBody()));
                 }
+
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
             }
         });
 
         consumer.start();
+        System.out.println("启动完成");
     }
 }
