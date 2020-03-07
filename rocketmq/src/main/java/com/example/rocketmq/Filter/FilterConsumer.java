@@ -22,7 +22,7 @@ public class FilterConsumer {
 
         consumer.setNamesrvAddr("localhost:19876;localhost:29876");
 
-        //指定所有Message中要获取tags
+        //指定所有Message中要获取的tags
 //        consumer.subscribe("TopicTest", "TagA || TagC || TagD");
 
         //sql语法过滤

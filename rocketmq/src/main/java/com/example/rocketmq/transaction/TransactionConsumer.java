@@ -26,8 +26,7 @@ public class TransactionConsumer {
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
 
                 for (MessageExt me : list) {
-
-                    System.out.println(Thread.currentThread().getName() + "消息接收:" + new String(me.getBody()));
+                    System.out.println(Thread.currentThread().getName() + " 消息接收:" +me.getTags() +" | "+ new String(me.getBody()));
                 }
 
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
