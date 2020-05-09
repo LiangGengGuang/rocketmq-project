@@ -1,0 +1,2 @@
+sh rocketmq_2m-2s-sync/bin/mqadmin clusterList -n localhost:19876
+sh rocketmq_2m-2s-sync/bin/mqadmin clusterList -n localhost:29876
